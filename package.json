@@ -4,7 +4,7 @@
   "description": "my website",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass":"resources/sass/main.scss main.css"
   },
   "author": "The-Twin",
   "license": "ISC",

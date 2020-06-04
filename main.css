@@ -1,15 +1,11 @@
 body{
     padding: 50px 0px 0px 0px;
     z-index: 0;
-    
+}
 
-}
-html{
-    background-image: url(resources/img/gallery-4.jpg);
-}
 footer{
     margin-top: 10%;
-    background-color: rgba(211, 204, 226, 0.815);
+    background-color: #ffb03b;
 }
 .navbar-dark{
     background-color: #000000bb;
@@ -53,13 +49,16 @@ address{
 .img-thumbnails {
     background-position: center;
     padding: 0.25rem;
-    background-color: #fff;
-    border: 1px solid #dee2e6;
+    background-color: #e43c5b1c;
+    border: 1px solid #ffb03b;
     border-radius: 0.25rem;
     width: 95%;
     height: 114%;
 }
-
+.img-thumbnails:hover{
+  background-color: #ffb13b3d;
+  border: 1px solid #e43c5c;
+}
 .thumbnail{
     width: 100%;
     height: 57%;
@@ -103,7 +102,7 @@ section {
   }
   
   .section-title h3 span {
-    color: #e43c5c;
+    color:#ffb03b;
   }
 
   .section-title p {
@@ -184,7 +183,7 @@ section {
           }
           
           .services .icon-box:hover::before {
-            background: #e43c5c;
+            background: #ffb03b;
             top: 0;
             border-radius: 0px;
           }
@@ -248,7 +247,7 @@ section {
   
   .pricing .box h4 {
     font-size: 42px;
-    color: #e43c5c;
+    color: #ffb03b;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 20px;
@@ -280,7 +279,7 @@ section {
   }
   
   .pricing .box ul i {
-    color: #e43c5c;
+    color: #ffb03b;
     font-size: 18px;
     padding-right: 4px;
   }
@@ -299,8 +298,8 @@ section {
     display: inline-block;
     padding: 8px 40px 10px 40px;
     border-radius: 50px;
-    border: 2px solid #e43c5c;
-    color: #e43c5c;
+    border: 2px solid #ffb03b;
+    color: #ffb03b;
     font-size: 14px;
     font-weight: 400;
     font-family: "Nunito", sans-serif;
@@ -309,22 +308,22 @@ section {
   }
   
   .pricing .box .btn-buy:hover {
-    background: #e43c5c;
+    background: #ffb03b;
     color: #fff;
   }
   
   .pricing .recommended {
-    border-color: #e43c5c;
+    border-color: #ffb03b;
   }
   
   .pricing .recommended .btn-buy {
-    background: #e43c5c;
+    background: #ffb03b;
     color: #fff;
   }
   
   .pricing .recommended .btn-buy:hover {
-    background: #d91e42;
-    border-color: #d91e42;
+    background: #080706;
+    border-color: #ffb03b;
   }
   
   .pricing .recommended-badge {
@@ -336,6 +335,6 @@ section {
     font-size: 13px;
     padding: 3px 25px 6px 25px;
     background: #fce6ea;
-    color: #e43c5c;
+    color: #ffb03b;
     border-radius: 50px;
   }
