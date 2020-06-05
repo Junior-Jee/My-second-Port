@@ -8,7 +8,7 @@ footer{
     background-color: #ffb03b;
 }
 .navbar-dark{
-    background-color: #000000bb;
+    background-color: #ff3b3b;
 }
 
 .row-header{
@@ -41,8 +41,7 @@ address{
 }
 
 .jumbotron{
-    background-color: rgb(92, 15, 122);
-    margin-top: 3%;
+  margin-top: 3%;
 }
 
     
